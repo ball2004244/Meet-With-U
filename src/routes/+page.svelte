@@ -1,4 +1,8 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<script>
+	const handleClick = () => {
+		alert('Hello world!');
+	};
+</script>
 
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-5">
@@ -11,5 +15,6 @@
 				<code class="code">/src/routes/+page.svelte</code> - this page, you can replace the contents
 			</li>
 		</ul>
+		<button type="button" class="btn variant-filled" on:click={handleClick}>Button</button>
 	</div>
 </div>
